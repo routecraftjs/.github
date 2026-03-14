@@ -1,38 +1,41 @@
 ### RouteCraft
 
-Welcome to the official GitHub organization of **RouteCraft**.
+**Give AI access, not control.**
 
-RouteCraft is a developer-first, type-safe integration and automation framework for TypeScript/Node.js. Author small, focused routes with a fluent DSL and run them across multiple runtimes. Inspired by Apache Camel, designed for isolation, clarity, and testability.
+RouteCraft is a code-first automation platform for TypeScript. Define capabilities with a fluent DSL, expose them to AI agents via MCP, and connect to any system through adapters.
 
-### What you will find here
+Write TypeScript capabilities that send emails, manage calendars, query databases, and automate work. Expose them to Claude, ChatGPT, Cursor, or any MCP-compatible agent. AI uses your capabilities, not your computer.
 
-- **Core Library and CLI:** The `@routecraft/routecraft` framework and `@routecraft/cli` to run routes from files or folders.
-- **Adapters and Consumers:** Built-in adapters (`simple`, `timer`, `direct`) and utilities (`log`, `noop`, `fetch`), with consumers for simple and batch processing.
-- **Documentation Site:** Source for `routecraft.dev` with guides, examples, and reference.
-- **Examples and Tests:** Runnable routes and first-class testing with Vitest.
+### What's in the box
 
-### Open Source and Ecosystem
+- **Core framework** -- type-safe DSL for authoring capabilities as composable routes
+- **AI integrations** -- MCP server/client, LLM, embedding, and agent adapters
+- **Built-in adapters** -- HTTP, file, JSON, CSV, HTML, timer, direct, and more
+- **CLI** -- run capabilities from the terminal with hot reload
+- **Testing utilities** -- spy adapters, test context, and invoke helpers for Vitest
+- **ESLint plugin** -- catch common mistakes at lint time
+- **Project scaffolder** -- `npx create-routecraft` to get started fast
 
-- **Docs:** Visit [routecraft.dev](https://routecraft.dev) for installation, quickstarts, and guides.
-- **NPM Packages:**
-  - [`@routecraft/routecraft`](https://www.npmjs.com/package/@routecraft/routecraft)
-  - [`@routecraft/cli`](https://www.npmjs.com/package/@routecraft/cli)
-  - [`@routecraft/create-routecraft`](https://www.npmjs.com/package/@routecraft/create-routecraft)
-  - [`eslint-plugin-routecraft`](https://www.npmjs.com/package/eslint-plugin-routecraft)
-- **Vision:** Fluent DSL, route isolation via `AbortController`, multi-runtime support (CLI and Node.js), and a roadmap for AI/agents and MCP.
+### NPM Packages
 
----
+- [`@routecraft/routecraft`](https://www.npmjs.com/package/@routecraft/routecraft) -- core library
+- [`@routecraft/ai`](https://www.npmjs.com/package/@routecraft/ai) -- AI and MCP integrations
+- [`@routecraft/cli`](https://www.npmjs.com/package/@routecraft/cli) -- CLI tool
+- [`@routecraft/testing`](https://www.npmjs.com/package/@routecraft/testing) -- test utilities
+- [`create-routecraft`](https://www.npmjs.com/package/create-routecraft) -- project scaffolder
+- [`eslint-plugin-routecraft`](https://www.npmjs.com/package/eslint-plugin-routecraft) -- ESLint plugin
 
-🚀 Learn more and get started at [routecraft.dev](https://routecraft.dev).
+### Get started
+
+Visit [routecraft.dev](https://routecraft.dev) for guides, reference, and examples.
 
 ### Contributing
 
-We welcome contributions!  
-Read the contribution guide at [routecraft.dev/docs/community/contribution-guide](https://routecraft.dev/docs/community/contribution-guide).
+Read the [contribution guide](https://routecraft.dev/docs/community/contribution-guide).
 
 ### Connect
 
 - [GitHub Discussions](https://github.com/routecraftjs/routecraft/discussions)
-- [X (formerly Twitter)](https://x.com/routecraftjs)
+- [X](https://x.com/routecraftjs)
 
 Maintained by [DevOptix](https://www.devoptix.nl).

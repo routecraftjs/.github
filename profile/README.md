@@ -1,14 +1,14 @@
-### RouteCraft
+### Routecraft
 
-**Give AI access, not control.**
+**Tools for agents. Or the agent harness itself.**
 
-RouteCraft is a code-first automation platform for TypeScript. Define capabilities with a fluent DSL, expose them to AI agents via MCP, and connect to any system through adapters.
+Routecraft is a type-safe framework for AI automation. Build the tools an agent uses, or the agent itself, with the same fluent DSL. Define capabilities, expose them to AI agents via MCP, and connect to any system through adapters.
 
 Write TypeScript capabilities that send emails, manage calendars, query databases, and automate work. Expose them to Claude, ChatGPT, Cursor, or any MCP-compatible agent. AI uses your capabilities, not your computer.
 
 ### What's in the box
 
-- **Core framework** -- type-safe DSL for authoring capabilities as composable routes
+- **Core framework** -- type-safe DSL for authoring capabilities as composable pipelines
 - **AI integrations** -- MCP server/client, LLM, embedding, and agent adapters
 - **Built-in adapters** -- HTTP, file, JSON, CSV, HTML, timer, direct, and more
 - **CLI** -- run capabilities from the terminal with hot reload
